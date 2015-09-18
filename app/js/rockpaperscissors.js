@@ -65,7 +65,7 @@ function getWinner(playerMove,computerMove) {
     	else if(computerMove === 'paper') 
     		winner = 'player';
     		else if(computerMove === 'scissors') 
-    			winner = 'tie';
+    			winner = 'tie';  //do we need to check any other values for playerMove?
     }
     return winner;
 }
